@@ -1,13 +1,14 @@
-import ButtonTest from './pages/ButtonTest'
-import InputTest from './pages/InputTest'
-import ModalTest from './pages/ModalTest'
+import {useState, useEffect} from 'react'
 
 export default function App() {
+
+		useEffect(async () => {
+      await Promise.resolve(1)
+    }, [])
+
   return (
     <main>
-      <ModalTest />
-      <InputTest />
-      <ButtonTest />
+
     </main>
   )
 }
