@@ -1,14 +1,11 @@
-import {useState, useEffect} from 'react'
+import CreateOrUseTest from './pages/CreateOrUseTest';
+import HighOrderCallback from './pages/HighOrderCallback';
 
 export default function App() {
-
-		useEffect(async () => {
-      await Promise.resolve(1)
-    }, [])
-
   return (
     <main>
-
+      {/* <CreateOrUseTest /> */}
+      <HighOrderCallback />
     </main>
-  )
+  );
 }
