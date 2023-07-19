@@ -1,11 +1,9 @@
-import CreateOrUseTest from './pages/CreateOrUseTest';
-import HighOrderCallback from './pages/HighOrderCallback';
+import WindowResizeTest from './pages/WindowResizeTest';
 
 export default function App() {
   return (
     <main>
-      {/* <CreateOrUseTest /> */}
-      <HighOrderCallback />
+      <WindowResizeTest />
     </main>
   );
 }
